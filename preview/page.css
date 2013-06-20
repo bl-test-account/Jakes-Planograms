@@ -1,11 +1,21 @@
-.header-button {
+.square-button {
   height: 70px;
-  background-color: #313131;
   float: left;
   width: 57px;
   display: inline;
 }
 
+.square-button.header-button {
+    background-color: #313131;
+    position: fixed;
+    left: 0%;
+}
+
+.list-button {
+ background-color: #313131; 
+ height: 62px;
+}
+  
 .app-top-header {
     position: fixed;
     display: inline;
@@ -72,4 +82,27 @@ h4 {
   color: white;
   padding: 9px 10px 0 10px;
   font-size: 12px;
+}
+
+tr:nth-child(odd) {
+  background-color: #fafafa;
+}
+
+table { 
+  width: 100%;
+}
+
+tr {
+  font-size: 16px;
+  display: block;
+  height: 50px;
+  padding-top: 14px;
+  line-height: 0.9em;
+  padding-left: 15px;
+}
+
+.td-secondary {
+  font-size: 13px;
+  float: left;
+  display: block;
 }
