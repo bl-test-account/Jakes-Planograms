@@ -1,0 +1,75 @@
+.header-button {
+  height: 70px;
+  background-color: #313131;
+  float: left;
+  width: 57px;
+  display: inline;
+}
+
+.app-top-header {
+    position: fixed;
+    display: inline;
+    float: right;
+    width: 100%;
+    left: 57px;
+    padding-top: 13px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    background-color: $dark_link_text;
+}
+
+h1 {
+  float: left;
+  margin-top: 0;
+  padding-top: 10px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  color: white;
+  letter-spacing: 4px;
+}
+
+h2 {
+  position: absolute;
+  padding-top: 18px;
+  font-size: 13px;
+  color: white;
+}
+
+h4 {
+  position: absolute;
+  color: white;
+  line-height: 70px;
+}
+
+.big-image {
+  height: 250px;
+  background-color: gray;
+}
+
+.section-title {
+  background-color: #50bcf2;
+  height: 62px;
+  padding-left: 15px;
+}
+
+.section-btn {
+  height: 70px;
+  background-color: #36a8e1;
+  float: right;
+  width: 57px;
+  height: 62px;
+  display: inline;
+}
+
+.right-trans {
+  background-color: black;
+  opacity: 0.7;
+  top: 80%;
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  height: 25px;
+  color: white;
+  padding: 9px 10px 0 10px;
+  font-size: 12px;
+}
