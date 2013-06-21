@@ -23,7 +23,6 @@
     padding-top: 13px;
     padding-bottom: 0px;
     padding-left: 20px;
-    background-color: $dark_link_text;
 }
 
 h1 {
@@ -56,7 +55,7 @@ h5 {
 
 .big-image {
   height: 250px;
-  background-color: gray;
+  background: image-url('planogram_sampleimg.jpg');
 }
 
 .section-title {
@@ -95,25 +94,54 @@ li:nth-child(odd) {
   background-color: #fafafa;
 }
 
-table { 
-  width: 100%;
-}
-
-tr {
-  font-size: 16px;
-  display: block;
-  height: 50px;
-  padding-top: 14px;
-  line-height: 0.9em;
-  padding-left: 15px;
-}
-
 .plan-compliance-list {
   list-style: none;
   width: 100%;
 }
 
 li {
-  height: 50px;
+  height: 62px;
   width: 100%
 }
+
+.list-time {
+  float: left;
+  display: inline-block;
+  max-width: 57px;
+  color: white;
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  background-color: #474747;
+  height: 42px;
+  padding: 14px 0 6px 0;
+}
+
+.list-time.update {
+  background-color: #36a8e1;
+  color: #474747; 
+}
+
+.row-center {
+  float:left;
+  padding-left: 15px;
+  padding-top: 2px;
+}
+
+.list-name {
+  font-size: 18px;
+  padding-top: 10px;
+}
+  
+.list-action {
+  font-size: 12px;
+  float: left;
+}
+
+.list-link {
+  float: right;
+  width: 57px;
+  height: 100%;
+  display: inline-block;
+}
+
+
