@@ -23,6 +23,7 @@ h5 {
 
 .big-image {
   height: 250px;
+  background-color: black;
 }
 
 .right-trans {
@@ -36,6 +37,8 @@ h5 {
   color: white;
   padding: 9px 10px 0 10px;
   font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 
 
