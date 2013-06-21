@@ -1,45 +1,13 @@
-.square-button {
-  height: 58px;
-  float: left;
-  width: 57px;
-  display: inline;
-}
-
-.square-button.header-button {
-    position: fixed;
-    left: 0%;
-}
-
-.list-button {
- background-color: #313131; 
- height: 62px;
-}
-  
-.app-top-header {
-    position: fixed;
-    display: inline;
-    width: 100%;
-    left: 57px;
-    padding-top: 13px;
-    padding-bottom: 0px;
-    padding-left: 20px;
-}
-
 h1 {
   float: left;
   margin-top: 0;
   padding-top: 10px;
   margin-bottom: 0px;
-  font-size: 16px;
-  color: white;
-  letter-spacing: 4px;
 }
 
 h2 {
   position: absolute;
   padding-top: 18px;
-  font-size: 13px;
-  color: white;
 }
 
 h4 {
@@ -55,26 +23,6 @@ h5 {
 
 .big-image {
   height: 250px;
-  background: image-url('planogram_sampleimg.jpg');
-}
-
-.section-title {
-  background-color: #50bcf2;
-  height: 62px;
-  padding-left: 15px;
-}
-
-.section-btn {
-  height: 70px;
-  background-color: #36a8e1;
-  float: right;
-  width: 57px;
-  height: 62px;
-  display: inline;
-  color: white;
-  font-size: 10px;
-  letter-spacing: 1px;
-  background
 }
 
 .right-trans {
@@ -90,58 +38,9 @@ h5 {
   font-size: 12px;
 }
 
-li:nth-child(odd) {
-  background-color: #fafafa;
+.time {
+  max-width: 30px;
 }
 
-.plan-compliance-list {
-  list-style: none;
-  width: 100%;
-}
-
-li {
-  height: 62px;
-  width: 100%
-}
-
-.list-time {
-  float: left;
-  display: inline-block;
-  max-width: 57px;
-  color: white;
-  font-size: 13px;
-  letter-spacing: 0.2em;
-  background-color: #474747;
-  height: 42px;
-  padding: 14px 0 6px 0;
-}
-
-.list-time.update {
-  background-color: #36a8e1;
-  color: #474747; 
-}
-
-.row-center {
-  float:left;
-  padding-left: 15px;
-  padding-top: 2px;
-}
-
-.list-name {
-  font-size: 18px;
-  padding-top: 10px;
-}
-  
-.list-action {
-  font-size: 12px;
-  float: left;
-}
-
-.list-link {
-  float: right;
-  width: 57px;
-  height: 100%;
-  display: inline-block;
-}
 
 
