@@ -8,6 +8,7 @@ h1 {
 h2 {
   position: absolute;
   padding-top: 18px;
+  color: white;
 }
 
 h4 {
@@ -40,6 +41,5 @@ h5 {
   text-transform: uppercase;
   letter-spacing: 0.2em;
 }
-
 
 
