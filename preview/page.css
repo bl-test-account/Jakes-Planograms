@@ -1,7 +1,7 @@
 .planogram-preview-main {
   height: auto:
   margin-top: 30px;
-  background-color: #fafafa;
+  background-color: #fafafa !important;
   padding-left: 30px;
 }
 

@@ -24,7 +24,7 @@ h5 {
 
 .big-image {
   height: 250px;
-  background-color: black;
+  background-color: #313131;
 }
 
 .right-trans {
@@ -42,4 +42,20 @@ h5 {
   letter-spacing: 0.2em;
 }
 
+/*--------Below is Tablet only--------*/
 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px), only screen and (min-width: 481px) {
+ 
+ .right-trans {
+      top: 82%;
+      height: 40px;
+      padding: 20px 40px 0px 40px;
+      font-size: 18px;
+      margin-right: 30px;
+ }
+ 
+ .big-image {
+   height: 500px;
+   background-color: #313131;
+ }
+}
