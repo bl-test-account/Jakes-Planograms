@@ -1,15 +1,17 @@
 .planogram-preview-main {
   height: auto:
-  margin-top: 30px;
+  margin-top: 0px;
   background-color: #fafafa !important;
   padding-left: 30px;
+  padding-right: 30px;
 }
 
 h1 {
   color: #474747;
-  padding-top: 40px;
   margin-bottom: 0px;
+  padding-top: 35px !important;
   padding-bottom: 3px;
+  letter-spacing: 0.3em !important;
 }
 
 body {
@@ -49,7 +51,7 @@ body {
   h1 {
     font-size: 24px !important;
     letter-spacing: 0.2em !important;
-    padding-top: 60px;
+    padding-top: 45px !important;
   }
   
   body {
